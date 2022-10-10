@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.side-wide {
+    height: 100vh;
+    width: 15vw;
+    background-color: rgb(235, 240, 238);
+    transition: 0.4s ease-in-out;
+
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+}
+
+.side-notwide {
+    display: block;
+    height: 100vh;
+    width: 50px;
+    background-color: rgb(235, 240, 238);
+    transition: 0.4s ease-in;
+
+}
+
+.btn-non {
+    display: none;
+}
+
+.contents {
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.side-links {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.side-item {
+    /* padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 6.5px; */
+    overflow: hidden;
+}
+
+/* .side-item:hover{
+    background-color: rgb(132, 209, 183);
+    color: #fff;
+} */
+.title {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.side-link {
+    text-decoration: none;
+    font-size: 15px;
+    white-space: nowrap;
+    color: black;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 6.5px;
+    display: block;
+
+
+}
+
+.side-link:hover {
+    color: rgb(38, 38, 38);
+}
+
+.tog-icon {
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.side-icon {
+    font-size: 25px;
+    padding: 7px;
+}
+
+.down-link {
+    margin-top: 250px;
+}
